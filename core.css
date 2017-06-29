@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS DOCUMENT */
+
+/* ALL */
+* {margin: 0 auto; padding: 0; list-style: none; box-sizing: border-box;}
+
+/* SEMANTIC TAG */
+body {overflow-x:hidden;}
+
+/* OFTEN TAG */
+*:before {margin: 0 auto; padding: 0; box-sizing: border-box;}
+*:after {margin: 0 auto; padding: 0; box-sizing: border-box;}
+a {color: inherit; text-decoration: none;}
+label, button {cursor: pointer;}
+h1, h2, h3, h4, h5, h6 {font-weight:normal;}
+p {line-height:1.2; font-weight:normal;}
+
+/* OFTEN CLASS */
+.clear {clear:both;}
+
+/* GRID */
+*[class*="col-md"] {float: left; padding-left: 15px; padding-right: 15px; position: relative;}
+.row-clear {margin: 0 -15px !important;}
+.col-clear {padding: 0 !important;}
+.col-left-clear {padding-left: 0 !important;}
+.col-right-clear {padding-right: 0 !important;}
+.col-md-1 {width: calc(100% / 12 * 1); flex: 0 0 calc(100% / 12 * 1);}
+.col-md-2 {width: calc(100% / 12 * 2); flex: 0 0 calc(100% / 12 * 2);}
+.col-md-3 {width: calc(100% / 12 * 3); flex: 0 0 calc(100% / 12 * 3);}
+.col-md-4 {width: calc(100% / 12 * 4); flex: 0 0 calc(100% / 12 * 4);}
+.col-md-5 {width: calc(100% / 12 * 5); flex: 0 0 calc(100% / 12 * 5);}
+.col-md-6 {width: calc(100% / 12 * 6); flex: 0 0 calc(100% / 12 * 6);}
+.col-md-7 {width: calc(100% / 12 * 7); flex: 0 0 calc(100% / 12 * 7);}
+.col-md-8 {width: calc(100% / 12 * 8); flex: 0 0 calc(100% / 12 * 8);}
+.col-md-9 {width: calc(100% / 12 * 9); flex: 0 0 calc(100% / 12 * 9);}
+.col-md-10 {width: calc(100% / 12 * 10); flex: 0 0 calc(100% / 12 * 10);}
+.col-md-11 {width: calc(100% / 12 * 11); flex: 0 0 calc(100% / 12 * 11);}
+.col-md-12 {width: calc(100% / 12 * 12); flex: 0 0 calc(100% / 12 * 12);}
+
+/* Slide Class */
+.slide {width: 1400px; height: 70vh; position: relative; overflow: hidden;}
+.slide .img div {width: 1400px; height: 70vh; background-size: 100% auto; background-position: top center; background-repeat: no-repeat; position: absolute; right: 100%;}
+.slide .img div:first-child {right:0;}
+.slide .pos {position: absolute; left: 50%; bottom: 5%; transform:translate(-50%, -50%);}
+.slide .pos div {float: left; width: 20px; height: 20px; margin: 0 10px; background: #fff; border-radius: 50%; cursor: pointer; transition: 0.6s;}
+.slide .pos div.this {background: #228eed;}

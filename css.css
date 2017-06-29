@@ -1,0 +1,168 @@
+* {
+	margin: 0 auto;
+}
+
+body{
+	background: #E0E0E0;
+	height: 300vh;
+}
+
+#topNav {
+	top: 0;
+	width: 100%;
+	height: 90px;
+	background: #555555;
+	position: fixed;
+	z-index: 1000;
+}
+
+.content {
+	width: 1400px;
+}
+
+#logoBox{
+	float: left;
+	width: 330px;
+	height: 100%;
+	position: relative;
+}
+
+#logo {
+	position: absolute;
+	top: 5px;
+	width: 80px;
+	height: 80px;
+}
+
+#logoBox > h2 {
+	position: absolute;
+	top: 10px;
+	left: 90px;
+	color: white;
+}
+
+#logoBox > h3 {
+	position: absolute;
+	top: 45px;
+	left: 120px;
+	color: white;
+}
+
+#titleBox{
+	width: 650px;
+	height: 100%;
+	float: right;
+}
+
+.scroll{
+	width: 130px;
+	height: 90px;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	transition-property: color;
+}
+
+.scroll > h3{
+	color: white;
+	margin-top: 28px;	
+}
+.scroll:hover > h3{
+	color: cyan;
+	transition: 1.3s;
+}
+
+#slideBox{
+	margin-top: 90px;
+	text-align: center;
+}
+
+#titleText{
+	position: absolute;
+	font-size: 100px;
+	color: white;
+	margin-top: -620px;
+	margin-left: 500px;
+	z-index: 1;
+}
+
+#newsBox{
+	margin-top: 40px;
+	height: 400px;
+}
+
+.smallTitle{
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+.news{
+	float: left;
+	width: 330px;
+	height: 400px;
+	margin-left: 13px;
+	margin-right: 13px;
+}
+
+.news > img{
+	width: 330px;
+	height: 250px;
+}
+
+#school{
+	margin-top: 30px;
+	height: 600px;
+}
+
+#school > img{
+	float: left;
+	margin-top: 60px;
+	margin-left: 100px;
+	width: 400px;
+	height: 400px;
+}
+
+#line{
+	float: left;
+	width: 2px;
+	height: 500px;
+	background: #FFFFFF;
+	margin-left: 140px;
+}
+
+#explain{
+	float: left;
+	width: 600px;
+	margin-left: 70px;
+}
+
+#explain > a{
+	color: blue;
+}
+
+.wideBg{
+	background: white;
+	width: 100%;
+}
+
+#sw{
+	height: 550px;
+}
+
+#sw > img{
+	position: absolute;
+	top: 1950px;
+	left: 1100px;
+}
+
+footer{
+	background: #444444;
+	text-align: center;
+	height: 60px;
+	margin-top: -5px;
+	padding-top: 20px;
+}
+
+footer > p{
+	color: #DDDDDD;
+}
